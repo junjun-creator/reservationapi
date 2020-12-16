@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form name="paging" action="./myreservation" method="post">
+		<input type="hidden" name="resrv_email" value=""/>
+	</form>
+	
+	<script>
+		var email='';
+		function ajax1(){
+			var xhr = new XMLHttpRequest();
+			xhr.onreadystatechange = function(){
+				if(xhr.readyState === 4 && xhr.status === 200){
+					var data = xhr.response;
+					//jsondata = JSON.parse(data);
+					console.log(data);
+					email = data;
+					
+					var f = document.paging;//form태그 실행
+					f.resrv_email.value = email;
+					f.submit();
+				}
+			};
+			xhr.open("GET","./myreservation");
+			xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+	        xhr.send(null);
+		}
+	
+		ajax1();
+		
+	</script>
+</body>
+</html>
