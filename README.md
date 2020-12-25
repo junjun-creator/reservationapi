@@ -29,7 +29,12 @@
   - 로그인 및 예약 확인, 예약 취소  
 ![로그인 및 예약내역 확인, 예약취소](https://user-images.githubusercontent.com/65852909/103132894-843fd700-46ea-11eb-8d4c-aee79d5ff4ec.gif)
 
-
+---
+### 👍개발에 어려웠던 점
+  - SPRING MVC 패턴을 이해하고 적용하는데 많은 시간 소요.
+  - Web API를 활용한 RESTful 서비스 개발 적용에 여려움이 있었음
+  - 서비스 개발 중 JavaScript 관련 예제가 대부분 jQuery로 구현된 예제라 이해하는데 꽤나 오랜 시간이 소요.
+  
 ---
 ### 🔍 Tech
   - [x] Java JDK 8
