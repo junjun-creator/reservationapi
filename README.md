@@ -44,7 +44,7 @@
   
 ---
 ### Notes
-  - 네이버 부스트코스(https://www.boostcourse.org/) 교육과정
+  - 부스트코스(https://www.boostcourse.org/) 교육과정
 
 ---
 ### 💼Download
